@@ -1,13 +1,13 @@
 import React from 'react'
 
-class Intro extends React.Component{
+var Intro = React.createClass({
 	render(){
 		return (
 			<div>
-				<h1>Welcome Back User Name</h1>
+				<h3>Logo goes here</h3>
 			</div>
 			)
 	}
-}
+})
 
 export default Intro

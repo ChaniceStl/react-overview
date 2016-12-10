@@ -4,13 +4,13 @@ import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 're
 //Component
 import Main from './main'
 import Intro from './intro'
-import Form from './form'
+import Button from './button'
 
 render(
 	<Router history={browserHistory}>
 		<Route path="/" component={Main}>
 		<IndexRoute component={Intro}/>
-		<Route path='form' component={Form}/>
+		<Route path='/button' component={Button}/>
 		</Route>
 	</Router>
 	,
